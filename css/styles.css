@@ -1,0 +1,220 @@
+
+  body {
+    font-family: 'Montserrat';
+    font-weight: 500;
+  }
+
+
+
+
+  #title {
+    background-color: #292b2c;
+    color: #fff;
+    margin-bottom: 5rem;
+
+
+
+
+
+
+}
+
+  #brands {
+    background-color: #374955;
+    /* alternative */
+    #ffe3de
+  }
+
+
+}
+
+  hr {
+      border: dotted #EAF6F6 6px;
+      border-bottom: none;
+      width: 4%;
+      margin: 100px auto;}
+
+
+    footer {
+      width: 100%;
+      background-color: #393e46;
+      padding: 1rem 2rem 3rem;
+      height: 15rem;
+      margin-bottom: 0;
+
+    }
+
+    footer p, footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer h2 {
+      color: white;
+      text-align: left;
+      font-weight: 500;
+      padding-top: 2rem;
+    }
+
+    footer hr {
+      color: white;
+    }
+
+    .fab {
+      font-size: 2rem;
+    }
+
+    .fab:hover {
+      color: #fcd1d1;
+    }
+
+
+  a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;}
+
+  a:hover {
+    color: #EAF6F6;
+}
+
+
+
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+  }
+
+  p {
+    color: #8f8f8f;
+    margin: 5%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container-fluid {
+   padding: 1% 5%;
+ }
+/* img */
+.card {
+margin: 10% 10%;
+padding: 10%;
+border-radius: 13%;
+}
+
+  .navbar {
+    text-align: right;
+
+  }
+
+
+.feature-box {
+  text-align: center;
+  padding: 7%;
+  margin: 5% auto;
+
+
+}
+  /* Navigation Bar */
+
+
+
+
+
+  .active-home {
+    border-bottom: 2px solid #fff;
+  }
+
+  .nav-item {
+    margin-right: 100px;
+
+
+  }
+  .icon {
+    margin-bottom: 7%;
+  }
+
+
+  ul.social {
+    list-style-type: none;
+    display: flex;
+    max-width: 18rem;
+    margin: 0 auto;
+
+
+  }
+
+
+  .socket {
+    color: white;
+    background-color: #532e1c;
+
+
+    text-align: center;
+    padding: 2rem;
+    height: 5rem;
+  }
+
+  .p-1 {
+    margin: 0;
+    color: white;
+  }
+
+  .a-1 {
+    color: white;
+  }
+
+  .a-1:hover {
+    color: grey;
+  }
+
+
+
+  /* reviews */
+
+  .carousel {
+    margin: 10rem 5rem;
+    border: .5rem;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .slideh1 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .h1-review {
+    font-style: italic;
+    text-shadow: 3px 3px 3px grey;
+  }
+
+
+/* footer */
+
+  .contact-info {
+    text-align: left;
+  position: relative;
+  left: 100px;
+  }

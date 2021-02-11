@@ -1,0 +1,43 @@
+  body {
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+  #gucci {
+    background-color: black;
+    margin-top: 0;
+
+
+  }
+
+.card {
+  margin: 10% 10%;
+
+}
+
+
+.gucci-h1 {
+  background-color: grey;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin-bottom: 0;
+
+
+}
+
+.arrow {
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: black;
+  float: left;
+  padding: .5rem;
+
+}
+.arrow:hover {
+  color: white;
+}

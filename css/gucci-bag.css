@@ -5,10 +5,14 @@
 
 h1 {
   margin-bottom: 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-style: italic;
 }
   #gucci {
-    background-color: black;
+    background-color: #222831;
     margin-top: 0;
+    position: absolute;
 
 
   }
@@ -20,24 +24,12 @@ h1 {
 
 
 .gucci-h1 {
-  background-color: grey;
+  background-color: #393e46;
+  color: #fff;
   text-align: center;
-  font-family: 'Montserrat';
-  font-weight: 700;
   margin-bottom: 0;
+  height: 3rem;
 
 
-}
 
-.arrow {
-  text-decoration: none;
-  text-align: left;
-  display: block;
-  color: black;
-  float: left;
-  padding: .5rem;
-
-}
-.arrow:hover {
-  color: white;
 }

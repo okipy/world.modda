@@ -5,35 +5,33 @@
   }
 
 
+    a{
+      color: #11999E;
+      font-family: 'Montserrat', sans-serif;
+      margin: 10px 20px;
+      text-decoration: none;}
 
-
-  #title {
-    background-color: #292b2c;
-    color: #fff;
-    margin-bottom: 5rem;
-
-
-
-
-
-
-}
-
-  #brands {
-    background-color: #374955;
-    /* alternative */
-    #ffe3de
+    a:hover {
+      color: #EAF6F6;
   }
 
 
-}
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 2rem;
+      line-height: 1.5;
+    }
 
-  hr {
-      border: dotted #EAF6F6 6px;
-      border-bottom: none;
-      width: 4%;
-      margin: 100px auto;}
+    h3 {
+      font-family: 'Montserrat';
+      font-weight: 600;
+    }
 
+    p {
+      color: #8f8f8f;
+      margin: 5%;
+    }
 
     footer {
       width: 100%;
@@ -58,89 +56,31 @@
 
     footer hr {
       color: white;
-    }
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));
 
-    .fab {
-      font-size: 2rem;
-    }
-
-    .fab:hover {
-      color: #fcd1d1;
     }
 
 
-  a{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;}
 
-  a:hover {
-    color: #EAF6F6;
-}
+  /* Navigation Bar */
 
 
+  #title {
+
+    color: #fff;
+    margin-bottom: 5rem;}
 
 
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 1.5;
+  .container-fluid {
+    padding: 1% 5%;
   }
-
-  h3 {
-    font-family: 'Montserrat';
-    font-weight: 600;
-  }
-
-  p {
-    color: #8f8f8f;
-    margin: 5%;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- .container-fluid {
-   padding: 1% 5%;
- }
-/* img */
-.card {
-margin: 10% 10%;
-padding: 10%;
-border-radius: 13%;
-}
 
   .navbar {
     text-align: right;
 
   }
-
-
-.feature-box {
-  text-align: center;
-  padding: 7%;
-  margin: 5% auto;
-
-
-}
-  /* Navigation Bar */
-
-
-
-
 
   .active-home {
     border-bottom: 2px solid #fff;
@@ -148,73 +88,127 @@ border-radius: 13%;
 
   .nav-item {
     margin-right: 100px;
+  }
 
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
 
   }
+
+  .nav-link:hover {
+    color: black;
+  }
+
+  .nav-image {
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+
+  }
+
+
+
+  /* FEATURES */
+  #features {
+    background-color: #fff;
+  }
+
   .icon {
     margin-bottom: 7%;
   }
 
-
-  ul.social {
-    list-style-type: none;
-    display: flex;
-    max-width: 18rem;
-    margin: 0 auto;
-
-
-  }
-
-
-  .socket {
-    color: white;
-    background-color: #532e1c;
-
-
+  .feature-box {
     text-align: center;
-    padding: 2rem;
-    height: 5rem;
-  }
-
-  .p-1 {
-    margin: 0;
-    color: white;
-  }
-
-  .a-1 {
-    color: white;
-  }
-
-  .a-1:hover {
-    color: grey;
+    padding: 7%;
+    margin: 5% auto;
   }
 
 
 
-  /* reviews */
 
-  .carousel {
-    margin: 10rem 5rem;
-    border: .5rem;
-    border-color: black;
-    border-style: solid;
-  }
+  /* BRANDS */
 
-  .slideh1 {
-    text-align: center;
-    margin-top: 3rem;
-  }
-
-  .h1-review {
-    font-style: italic;
-    text-shadow: 3px 3px 3px grey;
+  #brands {
+    background-color: #f1d1d0;
+    /* alternative */
+    #ffe3de
   }
 
 
-/* footer */
+  .card {
+  margin: 10% 10%;
+  padding: 10%;
+  border-radius: 13%;
+  }
+
+
+
+
+  /* FOOTER */
+
+
 
   .contact-info {
     text-align: left;
   position: relative;
   left: 100px;
   }
+
+
+  .p-1 {
+    margin: 0;
+    color: white;
+  }
+
+
+  .a-1 {
+    color: white;
+  }
+
+
+  .a-1:hover {
+    color: grey;
+  }
+
+
+  .socket {
+    color: white;
+    background-color: #222831;
+    text-align: center;
+    padding: 2rem;
+    height: 5rem;
+  }
+
+  ul.social {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 auto;
+  }
+
+  .fab {
+    font-size: 3rem;
+    padding: 1rem;
+
+
+  }
+
+  .fab:hover {
+    color: #79a3b1;
+  }
+
+  .fas {
+    font-size: 3rem;
+    padding: 1rem;
+
+
+  }
+
+  .fas:hover {
+    color: #79a3b1;
+  }
+
+  /* MEDIA */
+
+  @media (min-width: 993px) {
+
+    }
